@@ -1,16 +1,15 @@
 class ResistorColor {
     int colorCode(String color) {
-        //throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
-        int val=0;
+        int colorValue=0;
         String[] colorsList=colors();
         for(int i=0;i<colorsList.length;i++)
         {
             if(color.equals(colorsList[i])){
-                val=i;
+                colorValue=i;
                 break;
             }
         }
-        return val;
+        return colorValue;
     }
 
     String[] colors() {

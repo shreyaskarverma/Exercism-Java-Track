@@ -43,7 +43,7 @@ public class PythagoreanTriplet {
                     }
                 }
             }
-            return triplets.size() == 1 ? List.of(triplets.get(0)) : triplets;
+            return triplets;
         }
     }
 
